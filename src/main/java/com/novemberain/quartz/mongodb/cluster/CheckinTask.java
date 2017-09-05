@@ -24,7 +24,7 @@ public class CheckinTask implements Runnable {
         public void run() {
             //TODO Is there a way to stop only Quartz?
             //System.exit(1);
-            log.error("Node " + schedulerDao.instanceId + " lost network connection ");
+            log.error("Quartz node lost network connection");
         }
     };
 
